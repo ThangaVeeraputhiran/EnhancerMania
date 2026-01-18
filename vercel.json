@@ -2,18 +2,22 @@
   "version": 2,
   "builds": [
     {
-      "src": "app_production.py",
+      "src": "api/index.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "app_production.py"
+      "dest": "api/index.py"
     }
   ],
   "env": {
     "FLASK_ENV": "production"
   },
-  "regions": ["iad1"]
+  "functions": {
+    "api/index.py": {
+      "maxDuration": 60
+    }
+  }
 }

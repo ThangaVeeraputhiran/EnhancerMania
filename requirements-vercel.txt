@@ -1,0 +1,11 @@
+# Vercel-optimized requirements (faster deployment)
+Flask==2.3.0
+librosa==0.10.0
+soundfile==0.12.1
+scipy==1.11.0
+numpy==1.24.0
+matplotlib==3.7.0
+werkzeug==2.3.0
+flask-cors==4.0.0
+audioread==3.0.0
+resampy==0.4.2
