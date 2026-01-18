@@ -1,31 +1,14 @@
-# Deep Learning Based Speech Enhancement System - Requirements
+# Production web app requirements (Render/Flask)
+Flask==2.3.0
+flask-cors==4.0.0
+gunicorn==21.2.0
+werkzeug==2.3.0
 
-# Core Deep Learning Frameworks
-tensorflow>=2.10.0
-tensorflow-io>=0.27.0
-
-# Audio Processing
-librosa>=0.9.2
-soundfile>=0.11.0
-pydub>=0.25.1
-
-# Scientific Computing
-numpy>=1.23.0
-scipy>=1.9.0
-scikit-learn>=1.1.2
-
-# Data Storage
-h5py>=3.7.0
-
-# Visualization
-matplotlib>=3.5.3
-
-# Utilities
-audioread>=3.0.0
-resampy>=0.4.2
-
-# Web Framework
-flask>=2.3.0
-flask-cors>=4.0.0
-gunicorn>=21.0.0
-werkzeug>=2.3.0
+# Audio processing stack
+librosa==0.10.0
+soundfile==0.12.1
+scipy==1.11.0
+numpy==1.24.0
+matplotlib==3.7.0
+audioread==3.0.0
+resampy==0.4.2
