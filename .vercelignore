@@ -1,0 +1,39 @@
+# Exclude large datasets and outputs
+Dataset_Generated/
+Dataset_Ultra/
+Training_results/
+denoised_output/
+outputs/
+uploads/
+sample_audio/
+static/spectrograms/
+
+# Test and demo audio
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Model and checkpoint files
+Integration/model_files/
+*.h5
+*.pb
+*.ckpt*
+*.pth
+*.tflite
+*.npz
+
+# Env and cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+server.log
+training_log.txt
+
+# Misc
+.git/
+*.ipynb
